@@ -59,8 +59,7 @@ onSubmit(e) {
 
 
         }
-axios.post(`http://localhost:8000/add`, contact
-        )
+axios.post(`/add`, contact)
             .then(res => console.log(res.data))
             .catch(err => { console.log("error occured", err) })
 
