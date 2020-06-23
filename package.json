@@ -14,7 +14,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "travis": "^0.1.1",
-    "videojs": "^1.0.0",
+    "video.js": "^7.8.2",
     "yarm": "^0.4.0",
     "yarn": "^1.22.4"
   },
