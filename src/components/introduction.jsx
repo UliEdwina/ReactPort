@@ -1,68 +1,37 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
 export default class Introduction extends Component {
   render() {
     return (
       <div>
-        <section
-          id="colorlib-hero"
-          className="js-fullheight"
-          data-section="home"
-        >
+        <section id="colorlib-hero" className="js-fullheight" data-section="home">
           <div className="flexslider js-fullheight">
             <ul className="slides">
-              <li
-                className="firstimg"
-                style={{
-                  backgroundImage:
-                    "url(https://cvws.icloud-content.com/B/AW7vLaPm9X1trlSYHnomKXSV6iEmAYfGy-jRZFSmwbCPxPSc0NGTYnFL/img_bg_1.jpg?o=AufUc1UW8VHwqevjY4SuXHdkXz3-lfDlDDmjPKLtu53O&v=1&x=3&a=CAogppzyYnnWFqqd9JQAPHhrr5ECzIy244N-KGt7adHQ_4ESbxDHvoOSri4Y57W6kq4uIgEAUgSV6iEmWgSTYnFLaie-GSWjib6e-uG8d5-k_7lHYYFz4-0K9Nbp9ul7P9DeEtWFwPi023VyJ_4rsdEVcMjeLZkuIT1W03D9iCgl1syMyJu4LULfIxFIHMFPwqn0jw&e=1592934701&fl=&r=1ba941fd-609e-4aeb-9772-5bf08523d967-1&k=lTp-nZtRk2gD4vrRWwBaXQ&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=31&s=TIebUn2FnaGGghlbaTLZEsQx3AM&cd=i)",
-                }}
-              >
+              <li className = "firstimg" style={{backgroundImage: 'url()'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
-                          <h1>
-                            Hello! <br />
-                            I'm Edwina
-                          </h1>
-                          <p>
-                            <a
-                              className="btn btn-primary btn-learn"
-                              href="https://docs.google.com/document/d/e/2PACX-1vTloWXqV7ckuIy0H7XfKHTWMYprEXBbqdUDMa0Ht3yl-KSQPHXRVuiM3EMYdjiraYO-ef1734BF2D_r/pub"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              View Resume
-                              <i className="icon-download4" />
-                            </a>
-                          </p>
+                          <h1>Hello! <br />I'm Edwina</h1>
+                          <p><a className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/e/2PACX-1vTloWXqV7ckuIy0H7XfKHTWMYprEXBbqdUDMa0Ht3yl-KSQPHXRVuiM3EMYdjiraYO-ef1734BF2D_r/pub" target="_blank" rel="noopener noreferrer">View Resume<i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </li>
-              <li style={{ backgroundImage: "url(images/img_bg_2.jpg)" }}>
+              <li style={{backgroundImage: 'url(https://cvws.icloud-content.com/B/AYjKzq0YuFWQv-hS45EQs41wOPlmASu_Qn06QGpEn-CF9Uoo2_UjG1EB/img_bg_2.jpg?o=Arjkjku3ZiYDE9UkjzHbFqEEHOeB1dJVN5Qo_s-i7_lH&v=1&x=3&a=CAogqdEh5RC-QC6I3bTgila67zuFJFQBaGamggGwXaovwYMSbxD3u7OSri4Yl7Pqkq4uIgEAUgRwOPlmWgQjG1EBaicdu59WVDeq5IILBcs10Bchvqpq_2axzhjGi3881nma1Wo-P0tjRrRyJ4dkegYz0DazW0IBtw4-687f3FQVt5YeyT_UOPjMBwXW7Bwcwm3eJw&e=1592935487&fl=&r=1f0286f5-1b31-4374-bbf9-c7a48db1ab0e-1&k=S3efTLycVWVZyfDV-Q-B0w&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=31&s=hYr4a0ZUGU4VMvvgwaxM0JuTChw&cd=i)'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner NYC">
                         <div className="desc ">
-                          <h1>From NYC</h1>
-                          <p>
-                            <a
-                              href="/projects"
-                              className="btn btn-primary btn-learn"
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              View Projects <i className="icon-briefcase3" />
-                            </a>
-                          </p>
+
+                          <h1 >From NYC</h1>
+                          <p><a href='/projects'className="btn btn-primary btn-learn"  target="_blank" rel="noopener">View Projects <i className="icon-briefcase3" /></a></p>
                         </div>
                       </div>
                     </div>
@@ -88,6 +57,6 @@ export default class Introduction extends Component {
           </div>
         </section>
       </div>
-    );
+    )
   }
 }
